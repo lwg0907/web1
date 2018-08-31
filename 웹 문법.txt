@@ -1,0 +1,23 @@
+ - TAG
+
+<strong>  : 글씨 진하게
+<u> : 글씨 밑줄
+<br> : 단락 구분(닫아줄 필요 없음)
+<p> : 단락 구분(닫아 줘야 함)
+	- <p style="margin-top:45px;"> : 다음단락과 45픽셀 떨어지게 해줌
+<img> : 이미지 삽입
+	- <img src="파일이름" width="크기지정"> 속성(attribute)을 추가하여 의미부여 가능
+
+<li> : 목차 만들기(자식태그)
+<ul> : 목차 만들기(부모태그) -> Unordered List
+	*부모는 자식을 가지고 있고, 자식은 부모를 가지고 있다. 
+<ol> : 목차 앞에 넘버링 붙여줌 -> Ordered List
+<title> : 웹페이지 제목 설정
+<a> : 링크 걸 때 사용
+	-> <a href="https://www.w3.org/TR/html51/"
+	   target="_blank" 
+	   title="html5 specification">
+	
+	-> href = hypertext reference
+	-> target="_blank" :  새로운 페이지에 열리게 해줌
+	->title : 링크에 마우스 올렸을 때 보여주는 내용
